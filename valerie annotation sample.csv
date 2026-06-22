@@ -1,0 +1,26 @@
+narrative_id,text_original,text_language,label,label_confidence,annotator_notes,needs_review,economic_keywords,sentiment
+N001,"Ninaweka pesa kidogo kidogo kila wiki kwa akaunti yangu.",Swahili,savings,HIGH,"Clear savings behaviour — weekly cadence mentioned",No,"pesa, wiki, akaunti",Neutral
+N002,"I owe my supplier from last month and she is following up.",English,debt,HIGH,"Informal trade debt; supplier relationship at risk",No,"owe, supplier, following up",Negative
+N003,"Ni wiki yangu kulipa chama, lazima nitafute pesa leo.",Swahili,chama_obligations,HIGH,"Urgency marker 'lazima' — obligation-driven search for funds",No,"chama, kulipa, pesa",Negative
+N004,"My stock got damaged and I have no insurance to cover it.",English,business_risk,HIGH,"Asset loss without safety net — high vulnerability signal",No,"stock, damaged, insurance",Negative
+N005,"Lazima nibaki nyumbani kumhudumia mama yangu mgonjwa.",Swahili,care_work,HIGH,"Unpaid care work preventing economic participation",No,"nyumbani, kumhudumia, mgonjwa",Neutral
+N006,"Mtoto wangu alilazwa hospitalini, gharama zilikuwa kubwa.",Swahili,health_shock,HIGH,"Child hospitalisation — sudden financial shock",No,"hospitalini, gharama",Negative
+N007,"Napanga kukopa kwa biashara yangu, nina mpango mzuri.",Swahili,lending_readiness,HIGH,"Forward planning evident — positive lending signal",No,"kukopa, biashara, mpango",Positive
+N008,"Nilichukua loan ya 5k lakini bado sijaweza kulipa.",Mixed,debt,HIGH,"Code-switched; quantified debt amount; repayment struggle",No,"loan, kulipa, bado",Negative
+N009,"Wanawake wenzangu wanategemea mchango wangu wa chama.",Swahili,chama_obligations,MEDIUM,"Social obligation framing; community accountability pressure",No,"wanategemea, mchango, chama",Neutral
+N010,"I save a small amount every Friday before I spend anything.",English,savings,HIGH,"Disciplined saving habit; pre-commitment strategy visible",No,"save, Friday, spend",Positive
+N011,"Nilikuwa na savings lakini medical bill imezimaliza zote.",Mixed,health_shock,HIGH,"Code-switched; savings wiped by health expenditure — dual label candidate",Yes,"savings, medical bill, zote",Negative
+N012,"Nataka kukopa lakini sijui kama nitaweza kulipa kwa wakati.",Swahili,lending_readiness,MEDIUM,"Ambivalent — desire to borrow but repayment uncertainty expressed",Yes,"kukopa, kulipa, sijui",Negative
+N013,"Competition imekuwa mingi, bei yangu haiwezi kushindana.",Swahili,business_risk,HIGH,"Market competition reducing pricing power",No,"competition, bei, kushindana",Negative
+N014,"I spend most of my day taking care of my children and mother.",English,care_work,HIGH,"Multi-generational care burden; time poverty indicator",No,"taking care, children, mother",Neutral
+N015,"My earnings go down every time a family member needs care.",English,care_work,HIGH,"Direct income-care trade-off articulated clearly",No,"earnings, care, family",Negative
+N016,"Hospitali ilitaka deposit kubwa ambayo sikuwa nayo.",Swahili,health_shock,HIGH,"Denied access to care due to upfront cost barrier",No,"hospitali, deposit, sikuwa nayo",Negative
+N017,"Nina deni ya Fuliza ambayo inanilemea sana kila mwezi.",Swahili,debt,HIGH,"Fuliza (mobile credit) debt — recurring monthly burden",No,"deni, Fuliza, inanilemea",Negative
+N018,"Our merry-go-round is on Saturday and I must contribute 1000.",Mixed,chama_obligations,HIGH,"Fixed contribution amount; time-bound social obligation",No,"merry-go-round, contribute, 1000",Neutral
+N019,"My cash flow is stable now and I want to expand with credit.",English,lending_readiness,HIGH,"Positive cash flow signal; expansion intent — strong lending candidate",No,"cash flow, stable, credit",Positive
+N020,"Sina mtu wa kuachia watoto, siwezi kwenda kazini.",Swahili,care_work,HIGH,"Childcare barrier directly blocking labour participation",No,"watoto, siwezi, kazini",Negative
+N021,"Niliweka aside at least 200 bob daily for my future.",Mixed,savings,HIGH,"Sheng 'bob' (KES); daily micro-savings discipline",No,"aside, bob, daily, future",Positive
+N022,"I cannot miss my table banking contribution or I lose my slot.",English,chama_obligations,HIGH,"Exclusion risk if obligation unmet — vulnerability marker",No,"table banking, contribution, lose my slot",Negative
+N023,"Ugonjwa wa ghafla umevunja mpango wangu wote wa fedha.",Swahili,health_shock,HIGH,"Sudden illness destroying financial plans entirely",No,"ugonjwa, ghafla, mpango, fedha",Negative
+N024,"Biashara yangu imepoteza wateja wengi tangu baada ya mvua.",Swahili,business_risk,MEDIUM,"Weather-related customer loss — climate-business intersection; flag for context",Yes,"biashara, wateja, mvua",Negative
+N025,"The interest on my mobile loan has doubled what I borrowed.",English,debt,HIGH,"Predatory interest rate growth; financial trap language",No,"interest, mobile loan, doubled",Negative
